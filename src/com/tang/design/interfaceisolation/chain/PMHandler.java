@@ -2,7 +2,7 @@ package com.tang.design.interfaceisolation.chain;
 
 /**
  * @Classname PMHandler
- * @Description [ TODO ]
+ * @Description [ 项目经理 ]
  * @Author Tang
  * @Date 2020/10/12 14:29
  * @Created by ASUS
