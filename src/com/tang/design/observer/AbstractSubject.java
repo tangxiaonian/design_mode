@@ -12,12 +12,14 @@ import java.util.List;
  */
 public class AbstractSubject {
 
+    // 保存所有观察者列表
     private List<Observer> observerList = new ArrayList<>(16);
 
     public void attach(Observer observer) {
         observerList.add(observer);
     }
 
+    // 通知所有观察者列表
     protected void notifyAllObserver(String msg) {
         for (int i = 0; i < observerList.size(); i++) {
             observerList.get(i).update(msg);

@@ -8,5 +8,6 @@ package com.tang.design.observer;
  * @Created by ASUS
  */
 public interface Observer {
+    // 观察者更新操作
     void update(String msg);
 }
